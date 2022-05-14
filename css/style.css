@@ -1,0 +1,105 @@
+* {
+  border: 1px solid red!important;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.header-img {
+  width: 10%;
+  display: flex;
+  margin: 3%;
+}
+
+img {
+  width: 100%;
+}
+
+.header-nav {
+  width: 40%;
+
+}
+
+.header-nav-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.header-nav-item {
+  padding-right: 5%;
+  width: 100%;
+  
+}
+
+.header-nav a {
+  font-size: 18px;
+  color: rgb(95, 95, 95);
+}
+
+.eyecatch {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.catch-copy-wrapper {
+  width: 30%;
+}
+
+
+
+.catch-copy {
+  position: relative;
+  top: 100px;
+  left: 200px;
+  width: 140%;
+}
+
+.catch-copy-1 {
+  font-family: 'Gorditas', cursive;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 60px;
+  padding: 40px 0;
+  line-height: 110px;
+  color: rgb(194, 5, 100);
+  
+}
+
+.catch-copy-1 span {
+  color: rgb(15, 133, 133);
+}
+
+.catch-copy-2 {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 0;
+  color: rgb(194, 5, 100);
+}
+
+.catch-copy-2 span {
+  color: rgb(15, 133, 133);
+}
+
+.catch-copy-3 {
+  line-height: 30px;
+  color: rgb(78, 78, 78);
+  
+}
+
+
+.eyecatch-container {
+  width: 70%;
+
+}
