@@ -1,7 +1,6 @@
-/** {
+* {
   border: 1px solid red!important;
-}*/
-
+}
 /*　ヘッダー　*/
 header a {
   text-decoration: none;
@@ -11,13 +10,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  height: 50px;
 }
 
 .header-img {
-  width: 10%;
+  width: 9%;
   display: flex;
-  margin: 3%;
+  margin-left: 3%;
 }
 
 img {
@@ -25,20 +24,27 @@ img {
 }
 
 .header-nav {
-  width: 35%;
+  width: 50%;
+  margin-right: 10px;
 }
 
 .header-nav-list {
-  width: 100%;
   display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
 .header-nav-item {
-  padding-left: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-nav a {
-  font-size: 18px;
+  font-size: 12px;
   color: rgb(95, 95, 95);
 }
 /*　ヘッダー　*/
@@ -47,22 +53,23 @@ img {
 .eyecatch {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .catch-copy-wrapper {
-  width: 30%;
+  width: 100%;
 }
 
 .catch-copy {
   position: relative;
-  top: 60px;
-  left: 390px;
-  width: 140%;
+  top: 2%;
+  left: 45%;
+  width: 150%;
 }
 
 .catch-copy-1 {
   font-family: 'Indie Flower', cursive;
-  font-size: 70px;
+  font-size: 50px;
   padding: 40px 0;
   line-height: 110px;
   color: rgb(194, 5, 100);
@@ -73,7 +80,7 @@ img {
 }
 
 .catch-copy-2 {
-  font-size: 24px;
+  font-size: 17px;
   padding: 10px 0;
   color: rgb(194, 5, 100);
   font-family: 'Noto Sans JP', sans-serif;
@@ -86,11 +93,11 @@ img {
 .catch-copy-3 {
   line-height: 30px;
   color: rgb(78, 78, 78);
-  font-size: 17px;
+  font-size: 12px;
 }
 
 .eyecatch-container {
-  width: 60%;
+  width: 180%;
 }
 /*　アイキャッチ　*/
 
@@ -100,7 +107,7 @@ img {
 }
 
 .news-group {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -127,7 +134,7 @@ img {
 
 .news-group-item {
   list-style: none;
-  font-size: 18px;
+  font-size: 14px;
   color: rgb(78, 78, 78);
   line-height: 60px;
   border-bottom: 1px solid rgb(78, 78, 78);
@@ -136,10 +143,10 @@ img {
 .news-group-item span {
   background: rgb(194, 5, 100);
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   border-radius: 15px;
-  margin: auto 40px;
+  margin: auto 20px;
 }
 /*　ニュース　*/
 
@@ -195,7 +202,7 @@ img {
 }
 
 .service-group {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -233,7 +240,7 @@ img {
   text-align: center;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 .box1-cnt {
@@ -249,7 +256,7 @@ img {
 
 .box1-cnt .box-text {
   line-height: 25px;
-  font-size: 18px;
+  font-size: 12px;
   color: white;
   text-align: left;
   font-family: 'Noto Sans JP', sans-serif;
@@ -262,6 +269,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
 
 .box2 .service-group-img {
@@ -279,6 +287,7 @@ img {
   line-height: 25px;
   color: white;
   font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
 }
 
 .box3 {
@@ -288,6 +297,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
 }
 
 .box3 .service-group-img {
@@ -306,6 +316,7 @@ img {
   line-height: 25px;
   color: white;
   font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
 }
 /*　サービス　*/
 
@@ -344,7 +355,7 @@ img {
   width: 30%;
   position: relative;
   border-radius: 0 0 13px 13px;
-  background-color: white;
+  
 }
 
 .blog-group-card-icon {
@@ -366,11 +377,13 @@ img {
 .card__content {
   padding: 17px;
   border-radius: 0 0 13px 13px;
+  background-color: white;
+  margin-top: -3px;
 }
 
 .card__content .card__ttl {
   color: rgb(78, 78, 78);
-  font-size: 17px;
+  font-size: 12px;
   font-family: 'Noto Sans JP', sans-serif;
   line-height: 28px;
   padding-bottom: 25px;
@@ -379,7 +392,7 @@ img {
 .card__content .tag {
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 10px;
   font-family: 'Noto Sans JP', sans-serif;
   color: rgb(78, 78, 78);
 }
@@ -399,13 +412,13 @@ img {
   border-radius: 40px;
   font-family: 'Noto Sans JP', sans-serif;
   background-color: white;
-  font-size: 18px;
+  font-size: 15px;
 }
 /*　ブログ　*/
 
 /*　カンパニー　*/
 .company-group {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -470,7 +483,7 @@ table td {
   transform: translate(-50%, -50%);
   font-family: 'Noto Sans JP', sans-serif;
   color: white;
-  font-size: 33px;
+  font-size: 20px;
 }
 
 .info-interview {
@@ -485,7 +498,7 @@ table td {
   transform: translate(-50%, -50%);
   font-family: 'Noto Sans JP', sans-serif;
   color: white;
-  font-size: 33px;
+  font-size: 20px;
 }
 /*　インフォメーション　*/
 
@@ -512,11 +525,11 @@ table td {
 .contact-container button {
   margin-top: 20px;
   background: linear-gradient(90deg, rgb(255, 29, 123), rgb(172, 0, 86));
-  width: 18%;
+  width: 25%;
   height: 80px;
   border-radius: 40px;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: lighter;
   box-shadow: 0 10px 0px rgb(126, 2, 64);
@@ -537,8 +550,9 @@ table td {
 /*コンタクト*/
 
 footer {
-  padding: 27px 0;
+  padding: 25px 0;
   text-align: center;
   color: rgb(54, 54, 54);
   background-color: rgb(238, 238, 238);
+  font-size: 12px;
 }
